@@ -1,0 +1,49 @@
+.hero {
+    padding: 116px 0;
+}
+
+
+.hero__container {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+.hero{
+    align-items: center;
+}
+
+.hero__title {
+    font-size: 18px;
+    color: var(--color-amarillo);
+}
+.hero__name {
+    font-size: 136px;
+    color: var(--color-claro);
+}
+
+.hero__description {
+    font-size: 21px;
+    color: var(--color-secondary);
+}
+
+.hero__button {
+    font-size: 21px;
+    background-color: var(--color-amarillo);
+    color: var(--color-secondary);
+    padding: 12px 20px;
+    border-radius: 30px;
+    width: 146px;
+    height: 48px;
+    border: none;
+}
+
+.hero__button:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-amarillo);
+    transform: scale(1.10);
+}
+
+
+
