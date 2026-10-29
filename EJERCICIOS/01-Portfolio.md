@@ -12,7 +12,10 @@ Puedes incluir una presentación sobre ti, tus proyectos, tus habilidades y una 
 - Usar **BEM** para nombrar las clases CSS.
 - Organizar el CSS por bloques: **cada bloque BEM debe tener su propio fichero CSS**, incluyendo sus elementos y modificadores. Por ejemplo, `header.css`, `hero.css` y `project-card.css`.
 
-**Bonus:** despliega el portfolio en **Vercel** e incluye la URL pública en la pull request de entrega.
+## Bonus
+
+- Usar nombres en **inglés** para las clases CSS, manteniendo la nomenclatura BEM.
+- Desplegar el portfolio en **Vercel** e incluir la URL pública en la pull request de entrega.
 
 ## Recursos de apoyo
 
