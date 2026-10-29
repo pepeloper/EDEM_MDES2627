@@ -4,7 +4,7 @@ Repositorio común para las prácticas y proyectos de MDES. Aquí compartiremos 
 
 ## Ejercicios
 
-- [01 · Portfolio personal](Ejercicios/01-Portfolio.md)
+- [01 · Portfolio personal](EJERCICIOS/01-Portfolio.md)
 
 ## Organización
 
