@@ -1,8 +1,8 @@
-.ahora {
+.now {
     padding-bottom: 60px;
 }
 
-.ahora__container {
+.now__container {
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -12,7 +12,7 @@
 }
 
 
-.ahora__titles {
+.now__titles {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,17 +20,17 @@
     gap: 10px;
 }
 
-.ahora__title {
+.now__title {
     font-size: 32px;
     color: var(--color-amarillo2);
 }
 
-.ahora__year {
+.now__year {
     font-size: 20px;
     color: var(--color-claro);
 }
 
-.ahora__description {
+.now__description {
     font-size: 24px;
     color: var(--color-amarillo);
     text-align: left;
@@ -38,7 +38,7 @@
     border-radius: 8px;
 }
 
-.ahora__button {
+.now__button {
     font-size: 21px;
     background-color: var(--color-amarillo);
     color: var(--color-secondary);
@@ -49,7 +49,7 @@
     border: none;
 }
 
-.ahora__button:hover {
+.now__button:hover {
     background-color: var(--color-secondary);
     color: var(--color-amarillo);
 }
