@@ -3,15 +3,12 @@
     background-color: var(--color-accent);
 }
 
-
-
-.header .container {
+.header__container {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
 }
-
 
 .header__logo {
     color: var(--color-claro);
