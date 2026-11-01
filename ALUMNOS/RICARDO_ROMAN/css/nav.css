@@ -27,10 +27,10 @@
     margin: 0;
     padding: 0;
     list-style: none;
-
 }
 
-.header__ul li:hover, .header__logo:hover, .header__link:hover, .header:hover {
+.header__logo:hover,
+.header__link:hover {
     color: var(--color-amarillo);
 }
 
@@ -38,6 +38,4 @@
     color: var(--color-claro);
     text-decoration: none;
     padding: 10px 15px;
-    display: flex;
-
 }
