@@ -1,0 +1,38 @@
+.header {
+    padding: 10px 0;
+    background-color: var(--color-accent);
+}
+
+.header__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    color: var(--color-claro);
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+.header__ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header__logo:hover,
+.header__link:hover {
+    color: var(--color-amarillo);
+}
+
+.header__link {
+    color: var(--color-claro);
+    text-decoration: none;
+    padding: 10px 15px;
+}

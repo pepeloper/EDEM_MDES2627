@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devardo</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/projects.css">
+    <link rel="stylesheet" href="css/now.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container header__container">
+            <a class="header__logo" href="#">
+            Ricardo Roman
+            </a>
+            <nav class="header__nav">
+                <ul class = "header__ul">
+                    <li><a class="header__link" href="#top">Inicio</a></li>
+                    <li><a class="header__link" href="#projects">Proyectos</a></li>
+                    <li><a class="header__link" href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>  
+    </header>
+    <div class="container">
+        <section class="hero">
+            <div class="hero__container">
+                <div class = "hero__title">Desarrollador full stack Valencia</div>
+                <div class = "hero__name">Ricardo Román.</div>
+                <div class = "hero__description">Construyendo mundos de streaming</div>
+            </div>
+            <button class = "hero__button">Saber más</button>
+        </section>
+
+        <section class="projects" id ="projects">
+            <div class="projects__title">Proyectos</div>
+            <div class="projects__container">
+                <div class="projects__card">
+                    <div class="projects__card-label">Proyecto destacado</div>
+
+                    <div class="projects__card-title">WebMTX</div>
+                    <div class="projects__card-description">Distribución de vídeo en tiempo real con WebRTC y MediaMTX, pensada para realización en directo.</div>
+                    <a class="projects__card-link" href="https://github.com/Luigiverde4/webmtx" target="_blank">
+                        <img class="projects__card-icon" src="img/gh.png" alt="Ver el código de WebMTX en GitHub">
+                    </a>
+                </div>
+
+                    <div class="projects__title">Otros Proyectos:</div>
+                    
+                        <div class="projects__grid">
+                            <div class="projects__grid-title">blackjIAck</div>
+                            <div class="projects__grid-description">Sistema de visión artificial para juegos de cartas</div>
+                            <div class="projects__grid-title">XtraServer</div>
+                            <div class="projects__grid-description">Interfaces infográficas para la visualización de datos en directo</div>
+                            <div class="projects__grid-title">MultiFencing</div>
+                            <div class="projects__grid-description">Solución multicámara simultánea para el análisis de vídeo deportivo en competiciones de esgrima</div>
+                            <div class="projects__grid-title">SensorDashboard</div>
+                            <div class="projects__grid-description">Visualizador en tiempo real de datos IMU de M5Stack Fire con Node.js, Socket.IO y gráficos interactivos en la web</div>
+                        </div>
+                    </div>
+        </section>
+
+        <section class="now">
+            <div class="now__container">
+
+                <div class="now__titles">
+                    <div class="now__title">Ahora</div>
+                    <div class="now__year">2026</div>
+                </div>
+
+                <div class="now__description">Actualmente estoy trabajando en el desarrollo de distintas plataformas de streaming</div>
+                <button class="now__button">Hablemos de tu proyecto</button>
+            
+            </div>
+        </section>
+    </div>
+
+    <section class="contact" id="contact">
+            <div class="container contact__container">
+                <div class="contact__titles">
+                    <div class="contact__title">Hablemos</div>
+                    <div class="contact__description">Si estás resolviendo un problema parecido o quieres saber más sobre mi trabajo, escríbeme.</div>
+                    <div class="contact__email">ricardoromanreal@gmail.com</div>
+                    
+                
+                </div>
+                <div class="contact__form-container">
+                    <form class="contact__form" action="#" method="post">
+                        <label class="contact__label" for="nombre">Nombre</label>
+                        <input class="contact__input" type="text" id="nombre" name="nombre" required>
+
+                        <label class="contact__label" for="email">Email</label>
+                        <input class="contact__input" type="email" id="email" name="email" required>
+
+                        <label class="contact__label" for="motivo">Motivo</label>
+                        <select class="contact__input" id="motivo" name="motivo">
+                            <option value="proyecto">Quiero hablar de un proyecto</option>
+                            <option value="colaboracion">Colaboración</option>
+                            <option value="otro">Otro</option>
+                        </select>
+
+                        <label class="contact__label" for="mensaje">Mensaje</label>
+                        <textarea class="contact__input" id="mensaje" name="mensaje" rows="5" required></textarea>
+                        
+                        <div class="contact__info">Se abrirá tu aplicación de correo con el mensaje preparado</div>
+                        <button class="contact__button" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer__container">
+            <div class="footer__text">© 2026 Ricardo Román</div>
+            <a href="#top" class="footer__text">Volver arriba</a>
+        </div>
+    </footer>
+</body>
+
+</html>
