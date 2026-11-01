@@ -1,0 +1,32 @@
+.form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: var(--background-color-section);
+    padding: 25px;
+    margin-top: 30px;
+}
+
+.form__info {
+    margin-right: 10px;
+}
+
+.form__email {
+    color: var(--red-color);
+}
+
+.form__label {
+    font-size: 11px;
+}
+
+.form__input, .form__textarea {
+    width: 100%;
+    background-color: var(--background-color);
+    padding: 15px;
+    border: 1px solid var(--border-color);
+    color: var(--first-color-text);
+    margin: 10px 0px;
+}
+
+.form__text {
+    color: var(--second-color-text);
+}

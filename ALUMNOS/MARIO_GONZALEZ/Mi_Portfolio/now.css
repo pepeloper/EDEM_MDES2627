@@ -1,0 +1,19 @@
+.now {
+    border-top: 1px solid var(--border-color);
+    padding-top: 40px;
+}
+
+.now__div {
+    margin: 20px 0px;
+    padding: 30px;
+    background-color: var(--background-color-section);
+}
+
+.now__header {
+    justify-content: space-between;
+    display: flex;
+}
+
+.now__span-year {
+    color: var(--second-color-text);
+}
