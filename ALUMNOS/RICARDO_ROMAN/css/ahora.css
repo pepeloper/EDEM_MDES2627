@@ -33,3 +33,20 @@
     padding: 18px;
     border-radius: 8px;
 }
+
+.ahora__button {
+    font-size: 21px;
+    background-color: var(--color-amarillo);
+    color: var(--color-secondary);
+    padding: 12px 20px;
+    border-radius: 30px;
+    align-self: flex-start;  
+    height: 48px;
+    border: none;
+}
+
+.ahora__button:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-amarillo);
+}
+
