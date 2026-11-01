@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio de Mario</title>
+        <link rel="stylesheet" href="base.css">
+        <link rel="stylesheet" href="header.css">
+        <link rel="stylesheet" href="hero.css">
+        <link rel="stylesheet" href="projects.css">
+        <link rel="stylesheet" href="now.css">
+        <link rel="stylesheet" href="form.css">
+        <link rel="stylesheet" href="footer.css">
+    </head>
+    <body>
+        <header class="header">
+            <span class="header__name">Mario González.</span>
+            <nav>
+                <ul class="header__nav-list">
+                    <li><a href="#sobre-mi">Sobre mí</a></li>
+                    <li><a href="#proyecto">Proyectos</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="hero">
+                <p class="hero__subtitle">Desarrollador Web - Valencia</p>
+                <h1 class="hero__title">Mario González.</h1>
+                <p class="hero__description">Actualmente estoy estudiando un Máster en EDEM sobre Desarrollo Web, IA Aplicada y Devops</p>
+                <a href="#proyecto" class="button">Ver mi Trabajo</a>            
+            </section>
+            <section class="projects">
+                <h2>Proyectos</h2>
+                <article>
+                    <img class="projects__img" src="https://coworkingfy.com/wp-content/uploads/2023/06/tipos-de-proyectos.jpg" alt="imagen-proyecto-TFG" />
+                    <h3 class="projects__title">TFG</h3>
+                    <p>Mi proyecto final de grado consiste en que cada usuario, dependiendo del rol que tengan, puedan hacer una o varias funciones diferentes.</p>
+                    <a href="#ver-tfg" class="button">Ver TFG</a>
+                </article>
+            </section>
+            <section class="projects__other">
+                <h3>Otros Proyectos</h3>
+                <div class="projects__grid">
+                    <div class="projects__div">
+                        <article class="projects__div-border">
+                            <h4>Mi Proyecto 1</h4>
+                            <p>Esta es la descripción del primer proyecto.</p>
+                            <a href="#mi-primer-proyecto" class="button">Ver Primer Proyecto</a>
+                        </article>
+                    </div>
+                    <div class="projects__div">
+                        <article class="projects__div-border">
+                            <h4>Mi Proyecto 2</h4>
+                            <p>Esta es la descripción del Segundo Proyecto.</p>
+                            <a href="#mi-segundo-proyecto" class="button">Ver Segundo Proyecto</a>
+                        </article>
+                    </div>
+                    <div class="projects__div">
+                        <article>
+                            <h4>Mi Proyecto 3</h4>
+                            <p>Esta es la descripción del Tercer Proyecto.</p>
+                            <a href="#mi-tercer-proyecto" class="button">Ver Tercer Proyecto</a>
+                        </article>
+                    </div>
+                </div>
+            </section>
+            <section class="now">
+                <div class="now__div">
+                    <div class="now__header">
+                        <h2>Ahora</h2>
+                        <span class="now__span-year">2026</span>
+                    </div>
+                    <p>Trabajo como desarrollador web en una empresa en Valencia.</p>
+                    <a href="#linkedin" class="button">Ver sobre mí</a>
+                </div>
+            </section>
+            <section class="form">
+                <div class="form__info">
+                    <h2>Hablemos</h2>
+                    <p>Si estás resolviendo un problema parecido o quieres saber más sobre mi trabajo, escríbeme.</p>
+                    <span class="form__email">margoncres@gmail.com</span>
+                </div>
+                <div>
+                    <h3>Envíame un mensaje</h3>
+                    <form>
+                        <label class="form__label">Nombre *</label><br>
+                        <input class="form__input" type="text" name="nombre" /><br>
+                        <label class="form__label">Email *</label><br>
+                        <input class="form__input" type="email" name="email" /><br>
+                        <label class="form__label">Motivo</label><br>
+                        <input class="form__input" type="text" name="motivo" placeholder="Un proyecto"/><br>
+                        <label class="form__label">Mensaje *</label><br>
+                        <textarea class="form__textarea" name="mensaje" rows="8"></textarea><br>
+                        <span class="form__text">Se abrirá tu aplicación de correo con el mensaje preparado.</span>
+                        <button class="button" type="submit">Abrir Correo</button>
+                    </form>
+                </div>    
+            </section>
+        </main>
+        <footer class="footer">
+            <span>© 2026 Mario González</span>
+            <span><a href="#">Volver arriba</a></span>
+        </footer>
+    </body>
+</html>

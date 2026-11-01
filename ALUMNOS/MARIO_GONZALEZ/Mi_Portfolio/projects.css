@@ -1,0 +1,34 @@
+.projects {
+    border-top: 1px solid var(--border-color);
+    padding-top: 100px;
+}
+
+.projects__img {
+    width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+
+.projects__title {
+    font-size: 25px;
+}
+
+.projects__grid {
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.projects__div {
+    padding-left: 10px;
+}
+
+.projects__div-border {
+    border-right: 1px solid var(--border-color);
+}
+
+.projects__other {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
