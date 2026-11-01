@@ -1,0 +1,35 @@
+.ahora__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: var(--color-accent2);
+    border-radius: 8px;
+}
+
+
+.ahora__titles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 10px;
+}
+
+.ahora__title {
+    font-size: 32px;
+    color: var(--color-amarillo2);
+}
+
+.ahora__year {
+    font-size: 20px;
+    color: var(--color-claro);
+}
+
+.ahora__description {
+    font-size: 24px;
+    color: var(--color-amarillo);
+    text-align: left;
+    padding: 18px;
+    border-radius: 8px;
+}
