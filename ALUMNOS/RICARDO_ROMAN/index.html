@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/projects.css">
     <link rel="stylesheet" href="css/ahora.css">
+    <link rel="stylesheet" href="css/contacto.css">
 </head>
 <body>
     <header class="header"> 
@@ -68,9 +69,39 @@
             
             </div>
         </section>
-        <section class="Contacto">
-            <div class="class_container"></div>
-        </section>
     </div>
+
+    <section class="contacto">
+            <div class="container contacto__container">
+                <div class="contacto__titles">
+                    <div class="contacto__title">Hablemos</div>
+                    <div class="contacto__description">Si estás resolviendo un problema parecido o quieres saber más sobre mi trabajo, escríbeme.</div>
+                </div>
+                <div class="contacto__form--container">
+                    <form class="contacto__form" action="#" method="post">
+                        <label class="contacto__label" for="nombre">Nombre</label>
+                        <input class="contacto__input" type="text" id="nombre" name="nombre" required>
+
+                        <label class="contacto__label" for="email">Email</label>
+                        <input class="contacto__input" type="email" id="email" name="email" required>
+
+                        <label class="contacto__label" for="motivo">Motivo</label>
+                        <select class="contacto__input" id="motivo" name="motivo">
+                            <option value="proyecto">Quiero hablar de un proyecto</option>
+                            <option value="colaboracion">Colaboración</option>
+                            <option value="otro">Otro</option>
+                        </select>
+
+                        <label class="contacto__label" for="mensaje">Mensaje</label>
+                        <textarea class="contacto__input" id="mensaje" name="mensaje" rows="5" required></textarea>
+                        
+                        <div class="contacto__info">Se abrirá tu aplicación de correo con el mensaje preparado</div>
+                        <button class="contacto__button" type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+    </section>
 </body>
+
+
 </html>

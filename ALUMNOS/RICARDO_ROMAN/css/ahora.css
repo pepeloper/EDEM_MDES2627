@@ -1,3 +1,7 @@
+.ahora {
+    padding-bottom: 60px;
+}
+
 .ahora__container {
     display: flex;
     flex-direction: column;

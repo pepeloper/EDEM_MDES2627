@@ -1,0 +1,75 @@
+.contacto {
+    padding: 60px 0;
+    background-color: var(--color-accent);   /* de extremo a extremo de la ventana */
+}
+
+.contacto__container {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.contacto__titles {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contacto__title {
+    font-size: 32px;
+    color: var(--color-amarillo2);
+    text-align: left;
+}
+
+.contacto__description {
+    font-size: 24px;
+    color: var(--color-amarillo);
+    text-align: left;
+}
+
+.contacto__form--container {
+    flex: 2;
+}
+
+.contacto__form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contacto__label {
+    font-size: 18px;
+    color: var(--color-amarillo);
+    text-align: left;
+}
+
+.contacto__input {
+    font-size: 18px;
+    padding: 10px;
+    border: 1px solid var(--color-amarillo2);
+    border-radius: 8px;
+    background-color: var(--color-claro);
+    color: var(--color-secondary);
+}
+
+.contacto__info {
+    font-size: 14px;
+    margin-top: 8px;
+    color: var(--color-amarillo2);
+    text-align: left;
+}
+.contacto__button {
+    align-self: flex-start;
+    font-size: 21px;
+    background-color: var(--color-amarillo);
+    color: var(--color-secondary);
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: none;
+}
+
+.contacto__button:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-amarillo);
+}
