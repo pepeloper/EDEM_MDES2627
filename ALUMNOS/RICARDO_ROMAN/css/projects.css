@@ -14,6 +14,24 @@
 }
 
 
+.projects__card {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 24px;
+    background-color: var(--color-accent2);
+    border: 1px solid var(--color-amarillo);
+    border-radius: 8px;
+}
+
+.projects__card--label {
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--color-amarillo2);
+    text-align: left;
+}
+
 .projects__title--primary {
     font-size: 32px;
     color: var(--color-amarillo);
@@ -22,18 +40,18 @@
 .projects__description--primary {
     font-size: 24px;
     text-align: left;
-    padding: 18px;
-    margin-right: 60px;
-    color: var(--color-secondary);
-    border: 1px solid var(--color-accent2);
-    border-radius: 8px;
-    background-color: var(--color-amarillo2);
+    color: var(--color-claro);
+}
+
+.projects__card--link {
+    align-self: flex-start;
+    line-height: 0;
 }
 
 .img--gh {
-    width:  25px;
-    height: 25px;
-    border-radius: 15;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
 }
 
 .projects__grid {
