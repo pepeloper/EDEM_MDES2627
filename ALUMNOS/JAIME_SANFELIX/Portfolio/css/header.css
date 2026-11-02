@@ -1,0 +1,30 @@
+.header__nav{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    /* flex-wrap: wrap-reverse; */
+    justify-content: space-between;
+    gap: 0 1.5rem;
+}
+@media (max-width: 491px) {
+    .header__nav{
+    flex-direction: column;
+}    
+}
+
+.header__name{
+    flex-shrink: 0;
+}
+
+.header__menu{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem 1.5rem;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header__link:hover{
+    color: #F4774F;
+}

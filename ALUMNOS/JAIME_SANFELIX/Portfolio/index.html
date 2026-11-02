@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Portfolio de Jaime</title>
+        <link rel="stylesheet" href="css/base.css">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/hero.css">
+        <link rel="stylesheet" href="css/projects.css">
+        <link rel="stylesheet" href="css/project-card.css">
+        <link rel="stylesheet" href="css/contact-form.css">
+        <link rel="stylesheet" href="css/footer.css">
+    </head>
+    <body>
+        <header class="header">
+            <nav class="header__nav">
+                <h3 class="header__name">Jaime Sanfelix</h3>
+                <ul class="header__menu">
+                    <li class="header__item"><a class="header__link" href="">Sobre mi</a></li>
+                    <li class="header__item"><a class="header__link" href="">Proyectos</a></li>
+                    <li class="header__item"><a class="header__link" href="">Ahora</a></li>
+                    <li class="header__item"><a class="header__link" href="">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h3>Hola mundo</h3>
+            <h5>Adios mundo</h5>
+            <section class="hero">
+                <div class="hero__content">
+                    <p class="hero__eyebrow">Estudiante Edem</p>
+                    <h1 class="hero__title">Jaime Sanfelix</h1>
+                    <p class="hero__description">Descripcion</p>
+                    <button class="hero__button">Ver mi trabajo</button>
+                </div>
+            </section>
+            <section class="projects">
+                <h2 class="projects__title">Mis proyectos</h2>
+                <div class="projects__grid">
+                    <article class="project-card">
+                        <a class="project-card__image-link" href="https://github.com/jaimesanfelix">
+                            <img class="project-card__image" src="29759490.png" alt="Perfil de Jaime Sanfelix en GitHub">
+                        </a>
+                        <header class="project-card__header">
+                            <h3 class="project-card__title">Github</h3>
+                        </header>
+                        <p class="project-card__description">Presentacion de entregables en Edem</p>
+                        <p class="project-card__description">Enlace a mi repositorio de github</p>
+                        <a class="project-card__link" href="https://github.com/jaimesanfelix">Github</a>
+                    </article>
+                    <article class="project-card">
+                        <header class="project-card__header">
+                            <h3 class="project-card__title">Proyecto1</h3>
+                        </header>
+                        <p class="project-card__description">Entregable tarea demo</p>
+                        <a class="project-card__link" href="https://github.com/a10pepo/EDEM_MDIA2627/tree/main/ALUMNOS/MDES/JAIME_SANFELIX/DEMO">Demo</a>
+                    </article>
+                    <article class="project-card">
+                        <header class="project-card__header">
+                            <h3 class="project-card__title">Proyecto2</h3>
+                        </header>
+                        <p class="project-card__description">Reto repaso docker</p>
+                        <a class="project-card__link" href="https://github.com/juanjoprades04/reto-repaso">Repaso docker</a>
+                    </article>
+                </div>
+            </section>
+            <section aria-labelledby="contact-title">
+                <h2 id="contact-title">Contacto</h2>
+                <form class="contact-form">
+                    <p class="contact-form__field">
+                        <label class="contact-form__label" for="nombre">Nombre</label>
+                        <input class="contact-form__control contact-form__control--text" type="text" id="nombre" name="nombre">
+                    </p>
+                    <p class="contact-form__field">
+                        <label class="contact-form__label" for="email">Email</label>
+                        <input class="contact-form__control contact-form__control--text" type="email" id="email" name="email">
+                    </p>
+                    <p class="contact-form__field">
+                        <label class="contact-form__label" for="mensaje">Mensaje</label>
+                        <textarea class="contact-form__control contact-form__control--text" id="mensaje" name="mensaje" rows="2"></textarea>
+                    </p>
+                    <button class="contact-form__button" type="button">Enviar mensaje</button>
+                    <p class="contact-form__field">
+                        <label class="contact-form__label" for="semana">Selecciona el dia de la semana</label>
+                        <select class="contact-form__control" name="semana" id="semana">
+                            <option value="lunes">Lunes</option>
+                            <option value="martes">Martes</option>
+                            <option value="miercoles">Miercoles</option>
+                            <option value="jueves">Jueves</option>
+                            <option value="viernes">Viernes</option>
+                            <option value="sabado">Sabado</option>
+                            <option value="domingo">Domingo</option>
+                        </select>
+                    </p>
+                    <fieldset class="contact-form__group">
+                        <legend class="contact-form__label">Eres mayor de edad?</legend>
+                        <label class="contact-form__choice"><input class="contact-form__radio" type="radio" name="edad" id="mayor">Si</label>
+                        <label class="contact-form__choice"><input class="contact-form__radio" type="radio" name="edad" id="menor">No</label>
+                    </fieldset>
+                </form>
+            </section>
+        </main>
+        <footer class="footer">
+            <h6 class="footer__text">2026 Jaime Sanfelix</h6>
+        </footer>
+    </body>
+</html>

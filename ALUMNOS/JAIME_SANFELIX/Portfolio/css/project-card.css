@@ -1,0 +1,29 @@
+.project-card{
+    background-color: #000;
+    border: 2px solid #F4774F;
+    border-radius: 6px;
+    padding: 1rem;
+}
+
+.project-card__header{
+    border-bottom: 1px solid #F4774F;
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.5rem;
+}
+
+.project-card__title{
+    margin: 0;
+}
+
+.project-card__description{
+    color: #B5B9B1;
+}
+
+.project-card__image{
+    height: 50px;
+    width: 50px;
+}
+
+.project-card__link:hover{
+    color: #F4774F;
+}

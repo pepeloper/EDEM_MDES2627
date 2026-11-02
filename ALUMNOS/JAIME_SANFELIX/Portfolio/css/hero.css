@@ -1,0 +1,36 @@
+.hero{
+    padding: 3rem 0;
+}
+
+.hero__content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 0 auto;
+    max-width: 42rem;
+}
+
+.hero__eyebrow{
+    color: #F4774F;
+}
+
+.hero__title{
+    color: #fff;
+}
+
+.hero__description{
+    color: #B5B9B1;
+}
+
+.hero__button{
+    background-color: #F4774F;
+    border: 0;
+    border-radius: 4px;
+    color: #000;
+    cursor: pointer;
+    padding: 0.7rem 1rem;
+}
+
+.hero__button:hover{
+    filter: brightness(1.1);
+}
