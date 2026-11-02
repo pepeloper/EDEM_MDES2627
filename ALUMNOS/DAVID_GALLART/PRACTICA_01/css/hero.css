@@ -1,0 +1,31 @@
+.hero .container{
+    height: 520px;
+    padding: 64px 0;
+}
+
+.button--one:hover{
+    color: var(--text);
+    font-weight: bolder;
+}
+.hero__title{
+    color: var(--title);
+    font-size: 124px;
+    margin: 0 auto;
+    padding: 16px 0;
+}
+.hero__text{
+    color: var(--text);
+    width: 540px;
+    margin-bottom: 32px;
+}
+.hero__subtitle{
+    color: var(--subtitle);
+    font-size: 14px;
+}
+.button--one{
+    padding: 16px;
+    background-color: var(--subtitle);
+    border-radius: 32px;
+    text-decoration: none;
+    color: var(--background);
+}

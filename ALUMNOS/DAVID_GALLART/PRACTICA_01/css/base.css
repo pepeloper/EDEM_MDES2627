@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+}
+:root{
+    --background : #111210;
+    --title: #F5F5EF;
+    --text: #B5B9B1;
+    --subtitle: #f4774F;
+    --background-sec: #1B1D1A;
+    --line: #3A3E38;
+}
+body{
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    background-color: var(--background);
+
+
+}
+.container{
+    max-width: 1080px;
+    margin: 0 auto;
+}

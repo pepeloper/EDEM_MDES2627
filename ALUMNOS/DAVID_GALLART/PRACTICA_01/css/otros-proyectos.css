@@ -1,0 +1,26 @@
+.otros-proyectos .container{
+    height: 360px;
+}
+.otros-proyectos__title{
+    font-size: 24px;
+    color: var(--title);
+}
+.otros-proyectos__list{
+    display: inline;   
+}
+.otros-proyectos__article{
+    display: flex;
+    justify-content: space-between;
+    color: var(--title);
+    margin-top: 24px;
+        border-top: 1px solid var(--text);
+    padding: 20px 0;
+}
+.otros-proyectos__text{
+    width: 700px;
+   color: var(--text);
+}
+.otros-proyectos__article__title{
+    font-size: 24px;
+    font-weight: bold;
+}

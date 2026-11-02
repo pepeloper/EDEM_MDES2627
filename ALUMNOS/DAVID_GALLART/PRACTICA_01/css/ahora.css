@@ -1,0 +1,24 @@
+.ahora .container{
+    margin-bottom: 100px;
+    background-color: #1B1D1A;
+    padding: 50px;
+    border: var(--text) 1px solid;
+    border-radius: 1px;
+    display: grid;
+  grid-template-columns: 8fr 1fr;
+  gap: 16px;
+}
+.ahora__title{
+    font-size: 32px;
+    color: var(--title);
+    padding-bottom: 12px;
+
+}
+.ahora__text{
+    color: var(--text);
+    padding-bottom: 32px;
+}
+.ahora__year{
+    text-align: end;
+    font-size: 12px;
+}
