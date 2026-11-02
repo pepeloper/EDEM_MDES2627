@@ -1,0 +1,56 @@
+.now {
+    padding-bottom: 60px;
+}
+
+.now__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    background-color: var(--color-accent2);
+    border-radius: 8px;
+}
+
+
+.now__titles {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between; 
+    gap: 10px;
+}
+
+.now__title {
+    font-size: 32px;
+    color: var(--color-amarillo2);
+}
+
+.now__year {
+    font-size: 20px;
+    color: var(--color-claro);
+}
+
+.now__description {
+    font-size: 24px;
+    color: var(--color-amarillo);
+    text-align: left;
+    padding: 18px;
+    border-radius: 8px;
+}
+
+.now__button {
+    font-size: 21px;
+    background-color: var(--color-amarillo);
+    color: var(--color-secondary);
+    padding: 12px 20px;
+    border-radius: 30px;
+    align-self: flex-start;  
+    height: 48px;
+    border: none;
+}
+
+.now__button:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-amarillo);
+}
+
