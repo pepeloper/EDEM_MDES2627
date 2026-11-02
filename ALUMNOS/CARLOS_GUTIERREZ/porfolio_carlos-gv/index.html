@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carlos Gutierrez Vidal | Desarrollador Full-Stack</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/highlighted-projects.css">
+    <link rel="stylesheet" href="css/other-projects.css">
+    <link rel="stylesheet" href="css/now-cta.css">
+    <link rel="stylesheet" href="css/contact-form.css">
+
+</head>
+
+
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <div class="container navbar__inner">
+                <a class="navbar__name">CARLOS GUTIERREZ VIDAL</a>
+
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#hero">Inicio</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#highlighted-projects">Proyectos destacados</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#other-projects">Otros proyectos</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#now">Ahora</a>
+                    </li>
+                    <li class="navbar__item">
+                        <a class="navbar__link" href="#contact-form">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero">
+            <div class="hero__content">
+                <p class="hero__role">Desarrollador Full-Stack · Valencia</p>
+                <h1 class="hero__title">CARLOS GUTIERREZ</h1>
+                <p class="hero__description">
+                    Desarrollo software desde la interfaz hasta el backend y el despliegue.
+                </p>
+                <a class="button" href="https://www.linkedin.com/in/carlos-gutierrez-vidal/">
+                    Mi linkedin
+                </a>
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <section class="highlighted-projects" id="highlighted-projects">
+            <div class="highlighted-projects__content">
+
+                <h2 class="section-title">Proyectos</h2>
+
+                <article class="project-card">
+                    <img class="project-card__image" src="assets/entry-melt.png">
+                    <h3 class="project-card__title">
+                        Seleccion de candidatos por oferta y ranking de candidatos mediante IA
+                    </h3>
+                    <p class="project-card__description">
+                        Proyecto independiente para MELT GROUP.
+                        Desarrollo completo del front y conexión con el backend.
+                    </p>
+                </article>
+
+                <article class="project-card">
+                    <img class="project-card__image" src="assets/btc-dash.png">
+                    <h3 class="project-card__title">
+                        Sistema algorítmico para el mercado de futuros
+                    </h3>
+                    <p class="project-card__description">
+                        Implementación de un algoritmo mediante pesos que valora
+                        la compra en tiempo real de futuros y ejecuta acciones de mercado.
+                    </p>
+                </article>
+
+            </div>
+        </section>
+
+        <hr class="section-divider">
+
+        <section class="other-projects" id="other-projects">
+
+            <h2 class="section-title">Otros proyectos</h2>
+
+            <ul class="other-projects__list">
+                <li class="other-projects__item">
+                    <article class="project-summary">
+                        <h3 class="project-summary__name">API REST para gestión de tareas</h3>
+                        <p class="project-summary__description">
+                            Backend ligero para crear, consultar, actualizar y eliminar tareas.
+                            Cuenta con persistencia en PostgreSQL y despliegue mediante Docker Compose.
+                        </p>
+                    </article>
+                </li>
+                <li class="other-projects__item">
+                    <article class="project-summary">
+                        <h3 class="project-summary__name">Proyectos variados en mi github</h3>
+
+                        <p class="project-summary__description">Diversos proyectos en github probando cosas y
+                            aprendiendo</p>
+
+                    </article>
+                </li>
+            </ul>
+        </section>
+
+        <hr class="section-divider">
+
+        <section class="now" id="now">
+            <h2 class="section-title">Ahora</h2>
+            <p class="now__description">Estoy estudiando el master y desarrollando proyectos</p>
+            <a class="button" href="#contact-form">Hablemos</a>
+        </section>
+
+        <!-- <hr class="section-divider"> -->
+
+        <form class="contact-form" id="contact-form">
+            <div class="contact-form__grid">
+                <div class="contact-form__text">
+                    <h2 class="contact-form__title">¿Hablamos?</h2>
+                    <pre class="contact-form__code"><code>
+if dinero and idea:
+    print("<a href="#input-name">Send me a message!</a>")
+else:
+    print("Keep trying")
+                    </code></pre>
+                    <p class="contact-form__description">
+                        Envíame un mensaje a pepito@gmail.com
+                    </p>
+                </div>
+                <div class="contact-form__field">
+                    <label>
+                        Nombre
+                        <input class="contact-form__input" type="text" name="nombre" id="input-name"
+                            placeholder="Ej. Hos">
+                    </label>
+                </div>
+
+                <div class="contact-form__field">
+                    <label>
+                        Email
+                        <input class="contact-form__input" type="email" name="email" placeholder="Ej. hos@gmail.com">
+                    </label>
+                </div>
+
+                <div class="contact-form__field">
+                    <label>
+                        Mensaje
+                        <textarea class="contact-form__input" name="mensaje" rows="5"></textarea>
+                    </label>
+                </div>
+
+                <a class="button" href="mailto:">Enviar mensaje</a>
+            </div>
+        </form>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+
+</html>

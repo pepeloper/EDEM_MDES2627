@@ -1,0 +1,41 @@
+.other-projects {
+    display: flex;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: var(--spacing-section);
+    flex-direction: column;
+    background-color: var(--color-background);
+}
+
+.other-projects__list {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.project-summary {
+    display: grid;
+    grid-template-columns: 260px 1fr;
+    gap: 48px;
+    padding: 28px 0;
+    border-top: 1px solid var(--color-secondary);
+}
+
+.project-summary__name{
+    margin: 0;
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+.project-summary__description {
+    margin: 0;
+    text-align: end;
+    color: var(--color-muted);
+}
+
+
+.other-projects__item:last-child .project-summary {
+    border-bottom: 1px solid var(--color-secondary);
+}
+
