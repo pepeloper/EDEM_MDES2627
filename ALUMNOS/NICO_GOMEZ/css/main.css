@@ -1,0 +1,35 @@
+#hero {
+    height: 590px;
+}
+
+#hero-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 24px;
+    height: 100%;
+    width: 100%;
+}
+
+#occupation {
+    color: #e6e6e6;
+    font-family: "IBM Plex Mono", monospace;
+    font-size: 20px;   
+}
+
+.about-me {
+    font-family: "Shippori Mincho", serif;
+    font-size: 22px; 
+    line-height: 0.5;
+}
+
+#spotify-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 8px 524px;
+    background-color: #001701;
+    border-radius: 32px;
+    height: 48px;
+    width: 194px;
+}

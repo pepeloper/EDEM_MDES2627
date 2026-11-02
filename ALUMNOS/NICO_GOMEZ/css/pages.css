@@ -1,0 +1,26 @@
+#page-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+    width: 800px;
+    margin: 16px auto;
+}
+
+.pages-art {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+#pages__header {
+    margin: 96px 0px 16px 0px;
+}
+
+.page__link {
+    display: flex;
+    align-items: center;
+    font-family: "IBM Plex Mono", monospace;
+
+}

@@ -1,0 +1,73 @@
+#contact {
+    margin: 48px 0;
+}
+
+#contact__div {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+#your__info {
+    display: flex;
+    flex-direction: column;
+}
+
+#info__form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin: 24px 0;
+}
+
+.info__element {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.info__input {
+    all: unset;
+    background-color: #00170180;
+    border: 1px solid;
+    border-color: #8f8f8f;
+    border-radius: 8px;
+    height: 32px;
+    padding: 8px;
+    color: var(--text-color);
+}
+
+#select__and__button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+label {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#select__elem {
+    all: unset;
+    background-color: #00170180;
+    border: 1px solid;
+    border-color: #8f8f8f;
+    border-radius: 8px;
+    padding: 4px;
+    color: var(--text-color);
+}
+
+#form__button {
+    all: unset;
+    background-color: #00bd0380;
+    border: 1px solid;
+    border-color: #8f8f8f;
+    border-radius: 32px;
+    padding: 4px;
+    color: var(--text-color);
+}
+
+#form__button:hover {
+    background-color: #2ff732b2;
+    color: #000000;
+}

@@ -1,0 +1,17 @@
+#top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    font-size: 18px;
+}
+
+#top-nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 20px;
+    height: 100;
+    margin: 0;
+    padding: 0;
+}
