@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Nacho</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/proyects.css">
+    <link rel="stylesheet" href="css/now.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/footer.css">
+
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <span>Ignacio Ibáñez-Rizo Donat</span>
+            <nav>
+                <ul class="header__list">
+                    <li>
+                        <a href="#presentation">Sobre mi</a>
+                    </li>
+                    <li>
+                        <a href="#projects">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="#now">Ahora</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="presentation" class="presentation">
+            <div class="container">
+                <p class="subtitle">Desarrollador Software - Valencia</p>
+                <h1 class="hero">Ignacio Ibáñez-Rizo Donat</h1>
+                <p class="description">Máster en EDEM | Desarrollo Web, IA Aplicada y DevOps.</p>
+                <a class="button" href="link">Ver mi trabajo</a>
+            </div>
+        </section>
+        <section id="projects" class="projects">
+            <div class="container">
+                <h2 class="projects__title">TFG</h2>
+                <article>
+                    <img class="my-dear-map" src="icon.png">
+                    <h3 class="thesis-title">MyDearMap</h3>
+                    <p class="thesis-description">Guardar tus recuerdos más valiosos creando tu propio mapa. </p>
+                    <a class="button">Ver TFG</a>
+                </article>
+                <h3 class="projects__heading">Otros proyectos</h3>
+                <ul class="projects-grid">
+                    <li>
+                        <article>
+                            <h4 class="project__title">Proyecto 2</h4>
+                            <p class="project__description">Descripcion proyecto 2</p>
+                            <a class="button">Ver proyecto 2</a>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4 class="project__title">Proyecto 3</h4>
+                            <p class="project__description">Descripcion proyecto 3</p>
+                            <a class="button">Ver proyecto 3</a>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h4 class="project__title">Proyecto 4</h4>
+                            <p class="project__description">Descripcion proyecto 4</p>
+                            <a class="button">Ver proyecto 4</a>
+                        </article>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="now" class="now">
+            <div class="container">
+                <div class="card">
+                    <div class="card__flex">
+                        <h2 class="card__title">Ahora</h2>
+                        <span class="card__date">2026</span>
+                    </div>
+                    <p class="card__text">¡Hola! Soy estudiante de desarrollo web. Actualmente buscando mi primera oportunidad.</p>
+                    <a class="button" href="https://www.linkedin.com/in/ignacio-ibáñez-rizo-donat-21b87a366">Conectar en LinkedIn</a>
+                </div>
+            </div>
+        </section>
+        <section id="contact" class="contact">
+        <div class="container">
+            <div class="contact__text">
+                <h2 class="contact__title">Hablemos</h2>
+                <p class="contact__description">Si estás interesado, contáctame</p>
+                <p class="contact__email">ibanezrizodonat@gmail.com</p>
+                
+            </div>
+            <form class="form">
+                <h2 class="form__title">Envíame un mensaje</h2>
+                <p class="form__field"><label class="form__label" for="name">Nombre *</label> <input class="form__input" type="text" id="name" name="name"></p>
+                <p class="form__field"><label class="form__label" for="email">Email *</label> <input class="form__input" type="email" id="email" name="email"></p>
+                <p class="form__field"><label class="form__label" for="message">Mensaje *</label><textarea class="form__textarea" id="message" name="message" rows="5"></textarea></p>
+                <p class="form__field"><label class="form__label" for="birth-date">Fecha de nacimiento</label> <input class="form__input" type="date" id="birth-date" name="birth-date" max="2026-11-02", placeholder=""/></p>
+                <button type="submit" class="button"> Enviar mensaje</button>
+            </form>
+        </div>
+        </section>  
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <span class="footer__text"> © 2026 Ignacio Ibáñez-Rizo Donat</span>
+            <a class="footer__text" href="#">Volver arriba</a>
+        </div>
+    </footer>
+</body>
+</html>

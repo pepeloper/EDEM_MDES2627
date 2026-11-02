@@ -1,0 +1,25 @@
+.header {
+    height: 70px;
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    list-style: none;
+    gap: 16px;
+}
+
+@media (max-width: 499px){
+    .header .container{
+        flex-direction: column;
+    }
+}
