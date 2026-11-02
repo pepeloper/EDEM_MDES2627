@@ -1,0 +1,59 @@
+/* FORMULARIO: panel de campos dentro de la sección Contacto.
+   El botón aún no envía datos: falta conectar un servicio de recepción. */
+.formulario {
+    margin-top: 70px;
+    padding: 32px;
+    border: 1px solid #344155;
+    border-radius: 16px;
+    background-color: #172338;
+}
+
+.formulario h3 { font-size: 32px; }
+.formulario .p_correo { max-width: 650px; margin-top: 8px; color: var(--muted); }
+.formulario form { margin-top: 28px; }
+
+/* Cada etiqueta aparece encima de su campo. */
+.formulario__campo { margin-bottom: 20px; }
+.formulario__campo label { display: block; margin-bottom: 6px; }
+.formulario__campo input,
+.formulario__campo textarea {
+    display: block;
+    width: 100%;
+    max-width: 650px;
+    padding: 12px;
+    border: 1px solid #607087;
+    border-radius: 8px;
+    background-color: var(--background);
+    color: #ffffff;
+    font: inherit;
+}
+
+/* Preferencias agrupadas bajo un mismo título. */
+.formulario fieldset { margin-bottom: 20px; border: 0; }
+.formulario legend { margin-bottom: 10px; font-weight: bold; }
+.formulario fieldset label { display: block; margin-bottom: 8px; }
+.formulario fieldset input { margin-right: 8px; }
+
+.formulario button { font-size: 16px; cursor: pointer; }
+.formulario button {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 11px 24px;
+    border: 1px solid var(--accent);
+    border-radius: 30px;
+    background-color: var(--accent);
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.formulario button:hover {
+    background-color: #ffb18c;
+}
+
+.formulario button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 4px;
+}
