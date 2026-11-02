@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portfolio</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/hero.css">
+    <link rel="stylesheet" href="./css/proyecto-destacado.css">
+    <link rel="stylesheet" href="./css/otros-proyectos.css">
+    <link rel="stylesheet" href="./css/ahora.css">
+    <link rel="stylesheet" href="./css/formulario.css">
+    <link rel="stylesheet" href="./css/footer.css">
+</head>
+<body>
+    
+    <header class="header">
+        <div class="container">
+            <a href="#" class="header__icon" >David Gallart</a>
+                <nav class="nav">
+                <ul class="header__list">
+                <li><a href="#Proyectos" class="header__link">Proyectos</a></li>
+                <li><a href="#Ahora" class="header__link">Ahora</a></li>
+                <li><a href="#Contacto" class="header__link">Contacto</a></li>
+            </ul>
+        </nav>
+        </div>
+        
+    </header>
+    <main>
+        <section id="hero" class="hero">
+            <div class="container">
+                <p class="hero__subtitle">Desarrollador Full Stack - Valencia, España</p>
+                <h1 class="hero__title">David Gallart.</h1>
+                <p class="hero__text">Hola soy David Gallart tengo 21 años soy de Valencia y soy Desarrollador Web. Estoy haciendo un master en EDEM</p>
+                <p class="hero__text"> </p>
+
+                <a href="#Proyectos" class="button--one">Ver mi trabajo</a>
+            </div>
+        </section>
+
+        <section id="Proyectos" class="proyectos">
+            <div class="container">
+            <h2 class="proyecto__title">Proyectos</h2>
+            
+                <img src="./asserts/co-working.png" alt="">
+                <h3 class="proyecto__subtitle">Mi TFG</h3>
+                <p class="proyecto__text">Hice una aplicacion para un Co-Working de empresas para gestion de sitios y horarios de los espacios disponibles. Hice una aplicacion para un Co-Working de empresas para gestion de sitios y horarios de los espacios disponibles</p>
+             
+                <a class="button--one" href="https://github.com/davidgallart/">Enlace</a>
+            </div>
+        </section>
+        <section class="otros-proyectos">
+            <div class="container">
+               <h3 class="otros-proyectos__title">Otros proyectos</h3>
+            <ul class="otros-proyectos__list">
+                <li>
+                    <article class="otros-proyectos__article">
+                        <h4 class="otros-proyectos__article__title">Mi app para el gimnasio</h4>
+                        <p class="otros-proyectos__text">Es una app personalizada para el gimnasio, para poder apuntar pesos y las repeticiones de cada ejercicio en cada sesion y llevar un seguimiento </p>
+                        
+                    </article>
+                </li>
+                 <li>
+                    <article class="otros-proyectos__article">
+                        <h4 class="otros-proyectos__article__title">Proyecto 2</h4>
+                        <p class="otros-proyectos__text">Mi proyecto 2</p>
+                    </article>
+                </li>
+            </ul> 
+            </div>
+        </section>
+        <section class="ahora">
+            <div class="container">
+                <div>
+                  <h3 class="ahora__title">Ahora</h4>
+                <p class="ahora__text">Estoy estudiando un Master en EDEM de Desarrollo Web, IA y DevOPs </p>
+                <a href="https://edem.eu/" class="button--one">Conoce el master</a>  
+                </div>
+                <div>
+                    <p class="ahora__text ahora__year">2026</p>
+                </div>
+                
+            </div>
+        </section>
+    </main>
+    
+  <div class="form">
+    <div class="container">
+        <div class="form__info">
+            <h3 class="form__title">Hablemos</h3>
+            <p class="form__text">Si tienes alguna duda o quieres conocer mas sobre mi trabajo contactarme. </p>
+            <p class="form__email">hola@davidgallart.com</p>
+        </div>
+        <div>
+            <h3 class="form__subtitle">Envíame un mensaje</h3>
+            <form action="">
+                <div class="form__sec">
+                    <label for="nombre" class="form__label">Nombre: *</label>
+                    <input class="form__input" type="text" name="nombre" required>
+                 </div >
+                <div class="form__sec">
+                    <label for="email" class="form__label">Email: *</label>
+                    <input type="email" name="email" required class="form__input">
+                </div>
+                 <div class="form__sec">
+                    <label for="mensaje">Mensaje: *</label>
+                    <textarea class=" form__input form__msg" name="mensaje" id="mensaje" required>Hola</textarea>
+                </div>
+                <br>
+                <div class="form__sec form__select">
+                    <label for="Seleciona" class="form__label">Seleciona</label>
+                    <select name="Seleciona" id="" class="form__input">
+                        <option value="A">A</option>
+                        <option value="B" selected>B</option>
+                        <option value="C">C</option>
+                        <option value="D">D</option>
+                    </select>
+                </div>
+            
+            <br>
+            <button type="submit" class="button--send">Enviar</button>
+        </form> 
+        </div>
+        
+
+    </div>
+  </div>
+        
+    <footer class="footer">
+        <div class="container">
+            <p> 2026 David Gallart</p>
+            <a href="#" class="footer__link">Volver arriba</a>
+        </div>
+    </footer>
+</body>
+</html>
